@@ -13,7 +13,6 @@ const App = () => {
           if (height && width) {
             const scaleX = W / width;
             const scaleY = H / height;
-
             setMaxScale(Math.max(scaleX, scaleY));
           }
         }}
